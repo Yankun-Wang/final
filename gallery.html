@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="images/logo_yw.png" />
+        <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title >Yankun Wang</title>
+
+    </head>
+
+
+    <body>
+        <a href="#maincontent" class="focus-only" >Skip to main content</a>  
+        <header>
+
+            <nav class="topnav">
+                <img class="nav_logo" src= "images/logo_yw.png" alt="logo_image">
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "cookpal.html">Cook Pal</a></li>
+                    <li><a href = "gallery.html" class="current">Gallery</a></li>
+                    <li><a href = "resume.html">Resume</a></li>
+                    <li><a href = "about.html">About</a></li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <main id="maincontent">
+            
+            <div class="gallery-heading">
+                <h1>Collection</h1>
+            </div>
+            
+
+            <div id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                <button class="btn" onclick="filterSelection('models')"> Models</button>
+                <button class="btn" onclick="filterSelection('drawings')"> Drawings</button>
+                <button class="btn" onclick="filterSelection('uxui')"> UX/UI</button>
+                
+            </div>
+
+            <div class="gallery-container">
+                <div class = "gallery-item filterDiv models">
+                    <img class="gallery-image" src= "images/arch_1.jpg" alt="Sample photo" >
+                </div>
+                
+                <div class = "gallery-item filterDiv drawings">
+                    <img class="gallery-image" src= "images/arch_2.jpg" alt="Sample photo" >
+                </div>
+                <div class = "gallery-item filterDiv drawings">
+                    <img src= "images/arch_3.jpg" alt="Sample photo" class="gallery-image">
+                </div>
+                <div class = "gallery-item filterDiv drawings">
+                    <img src= "images/arch_4.jpg" alt="Sample photo" class="gallery-image">
+                </div>
+                <div class = "gallery-item filterDiv models">
+                    <img src= "images/arch_5.jpg" alt="Sample photo" class="gallery-image">
+                </div>
+                <div class = "gallery-item filterDiv uxui">
+                    <img src= "images/arch_6.jpg" alt="Sample photo" class="gallery-image">
+                </div>
+                <div class = "gallery-item filterDiv models">
+                    <img src= "images/arch_7.jpg" alt="Sample photo" class="gallery-image">
+                </div>
+                <div class = "gallery-item filterDiv models">
+                    <img src= "images/arch_8.jpg" alt="Sample photo" class="gallery-image">
+                </div>
+                <div class = "gallery-item filterDiv models">
+                    <img src= "images/arch_9.jpg" alt="Sample photo" class="gallery-image">
+                </div>
+                
+                <div class = "gallery-item filterDiv models">
+                    <img src= "images/arch_10.jpg" alt="Sample photo" class="gallery-image">
+                </div>
+                <div class = "gallery-item filterDiv models">
+                    <img src= "images/arch_11.jpg" alt="Sample photo" class="gallery-image">
+                </div>
+                <div class = "gallery-item filterDiv models">
+                    <img src= "images/arch_12.jpg" alt="Sample photo" class="gallery-image">
+                </div>
+
+               
+
+            </div> 
+
+        </main>
+
+<!-- PAGE FOOTER -->
+        <footer class="footer site-footer">
+            <div>
+                <small>© 2019 Design&Code by Yankun Wang</small>
+            </div>
+        </footer>
+<!-- - PAGE FOOTER -->
+<script src="js/filter.js"></script>
+
+    </body>
+</html>

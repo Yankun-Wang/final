@@ -1,0 +1,50 @@
+JavaScript – HTML5 Video Player              15
+JavaScript - Hamburger                       15
+Linked image lightbox with captions          15
+CSS - FlipCard                               10
+Link to custom domain                         5
+Filtering                                    20
+JavaScript – Carousel                        15
+JavaScript - Typewriter Effect	             15
+CSS - Callout			                     10
+JavaScript – Accordion                       15
+
+
+
+*Typewriter  15
+https://www.w3schools.com/howto/howto_js_typewriter.asp
+https://codepen.io/nodealpha/pen/BoBzRx
+  
+*Carousel    15
+https://www.w3schools.com/howto/howto_js_slideshow.asp
+http://kenwheeler.github.io/slick/
+https://www.w3schools.com/bootstrap/bootstrap_ref_js_carousel.asp
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow
+
+*JavaScript – HTML5 Video Player  15
+https://www.w3schools.com/html/html5_video.asp
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video_js_prop
+
+
+*CSS - FlipCard                   10
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_card
+
+
+*CSS - Callout			                     10
+Resume page, looking for product time 
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_callout
+
+
+Filtering                        20
+https://www.w3schools.com/howto/howto_js_portfolio_filter.asp
+https://codepen.io/pramodkumarboda/pen/XdgxmQ
+https://www.w3schools.com/howto/howto_js_filter_elements.asp
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_elements
+
+JavaScript – Accordion           15
+https://www.w3schools.com/howto/howto_js_accordion.asp
+https://codepen.io/sureshrkm/pen/ZbzBpr/
+
+JavaScript - Modal               15
+
+

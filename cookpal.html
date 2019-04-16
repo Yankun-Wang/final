@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="images/logo_yw.png" />
+        <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title >Yankun Wang</title>
+
+    </head>
+
+
+    <body>
+        <a href="#maincontent" class="focus-only" >Skip to main content</a>  
+        <header>
+
+            <nav class="topnav">
+                <img class="nav_logo" src= "images/logo_yw.png" alt="logo_image">
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "cookpal.html" class="current">Cook Pal</a></li>
+                    <li><a href = "gallery.html">Gallery</a></li>
+                    <li><a href = "resume.html">Resume</a></li>
+                    <li><a href = "about.html">About</a></li>
+
+                </ul>
+            </nav>
+        </header>
+<!-- Maincontent -->
+        <main id="maincontent">
+
+            <div class="project_intro">
+                <div class="bg_intro">
+                    <h1>CookPal</h1>
+                    <p>A mobile app to help college students  creating meal prep party and make meal prep fun and social activity. </p>
+                </div>
+            </div>
+
+
+
+            <div class=project_section_white>
+                <h2>Problem</h2>
+                <p>36% of college students do not get enough to eat. 63% of college students said that sometimes they skipped meals.</p>
+                <p>Lack of time is among the most commonly reported barriers to meal planning.  35% of college students found that they did not have enough food to eat because they couldn’t get to a grocery shop.</p>
+                <p>The lack of cooking skills and diversity of food choice for meal-prep are also stopping college student preparing their meals.</p>
+            </div>
+
+            <div class=project_section_gray>
+                <h2>Challenge</h2><br>  
+                <p>People enjoy not only the physical exercise but also the social contact between people from. However, gathering busy college students for a good cooking party and organize recipes and shopping list is difficult even with existing social media services.</p>
+            </div>
+
+            <div class=project_section_white> 
+                <h2>Iterate for real needs</h2>
+                <p>Cook Pal is a mobile app design of a semester-long solo project. I conducted the end-to-end research and design process. My design evolved along several rounds of iteration at different stages.</p>
+                <img src="images/cookpal_2.png" class="image_1" alt = "Diagram picture"/>
+                <br>
+            </div>
+
+
+            <div class=project_section_gray> 
+                    <h2>Persona</h2>
+            <!-- Container for the Carousel -->
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 4</div>
+                  <img src="images/cp_p1.jpg" style="width:100%">
+                  <div class="text">Persona 1</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 4</div>
+                  <img src="images/cp_p2.jpg" style="width:100%">
+                  <div class="text">Persona 2</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 4</div>
+                  <img src="images/cp_p3.jpg" style="width:100%">
+                  <div class="text">Persona 3</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="images/cp_p4.jpg" style="width:100%">
+                    <div class="text">Persona 4</div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                  <span class="dot" onclick="currentSlide(4)"></span> 
+                </div>
+                
+            </div>
+
+            <div class=project_section_white>
+            
+                <div style="text-align:center"> 
+                    
+                    <video id="video" width="300">
+                    <source src="video/SI582_Final_Digital_Mockup.mov" type="video/mp4">
+                    <source src="mov_bbb.ogg" type="video/ogg">
+                    
+                    
+                    </video>
+                    <br>
+                    <button class = "vButton" onclick="playPause()">Play/Pause</button> 
+                    <button class = "vButton" onclick="makeBig()">Big</button>
+                    <button class = "vButton" onclick="makeSmall()">Small</button>
+                    <button class = "vButton" onclick="makeNormal()">Normal</button>
+                </div> 
+            
+            </div>
+    <!-- PAGE FOOTER -->
+        <footer class="footer site-footer">
+            <div>
+               <!--  <p>© 2019 Design&Code by Yankun Wang</p>-->
+            </div>
+        </footer>
+    <!-- - PAGE FOOTER -->
+
+    <script>
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    }
+
+//Html Video Player
+    var myVideo = document.getElementById("video"); 
+
+    function playPause() { 
+    if (myVideo.paused) 
+        myVideo.play(); 
+    else 
+        myVideo.pause(); 
+    } 
+
+    function makeBig() { 
+        myVideo.width = 450; 
+    } 
+
+    function makeSmall() { 
+        myVideo.width = 150; 
+    } 
+
+    function makeNormal() { 
+        myVideo.width = 300; 
+    } 
+    </script>
+
+    </body>
+</html>
