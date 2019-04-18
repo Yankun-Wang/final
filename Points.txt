@@ -35,7 +35,7 @@ Resume page, looking for product time
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_callout
 
 
-Filtering                        20
+*Filtering                        20
 https://www.w3schools.com/howto/howto_js_portfolio_filter.asp
 https://codepen.io/pramodkumarboda/pen/XdgxmQ
 https://www.w3schools.com/howto/howto_js_filter_elements.asp
@@ -45,6 +45,5 @@ JavaScript – Accordion           15
 https://www.w3schools.com/howto/howto_js_accordion.asp
 https://codepen.io/sureshrkm/pen/ZbzBpr/
 
-JavaScript - Modal               15
 
 

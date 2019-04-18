@@ -67,25 +67,25 @@
 
                 <div class="mySlides fade">
                   <div class="numbertext">1 / 4</div>
-                  <img src="images/cp_p1.jpg" style="width:100%">
+                  <img src="images/cp_p1.jpg" alt="persona 1" style="width:100%">
                   <div class="text">Persona 1</div>
                 </div>
                 
                 <div class="mySlides fade">
                   <div class="numbertext">2 / 4</div>
-                  <img src="images/cp_p2.jpg" style="width:100%">
+                  <img src="images/cp_p2.jpg" alt="persona 2" style="width:100%">
                   <div class="text">Persona 2</div>
                 </div>
                 
                 <div class="mySlides fade">
                   <div class="numbertext">3 / 4</div>
-                  <img src="images/cp_p3.jpg" style="width:100%">
+                  <img src="images/cp_p3.jpg" alt="persona 3" style="width:100%">
                   <div class="text">Persona 3</div>
                 </div>
 
                 <div class="mySlides fade">
                     <div class="numbertext">4 / 4</div>
-                    <img src="images/cp_p4.jpg" style="width:100%">
+                    <img src="images/cp_p4.jpg" alt="persona 4" style="width:100%">
                     <div class="text">Persona 4</div>
                 </div>
                 
@@ -104,24 +104,24 @@
                 
             </div>
 
-            <div class=project_section_white>
-            
+            <div class=project_section_black>
+                <h2 id="videoheading">Low-Fi Prototype</h2>
                 <div style="text-align:center"> 
                     
                     <video id="video" width="300">
                     <source src="video/Digital_draft.mov" type="video/mp4">
                     <source src="mov_bbb.ogg" type="video/ogg">
-                    
-                    
+
                     </video>
                     <br>
                     <button class = "vButton" onclick="playPause()">Play/Pause</button> 
                     <button class = "vButton" onclick="makeBig()">Big</button>
-                    <button class = "vButton" onclick="makeSmall()">Small</button>
+                    
                     <button class = "vButton" onclick="makeNormal()">Normal</button>
                 </div> 
             
             </div>
+        </main>
 <!-- PAGE FOOTER -->
 <footer class="footer site-footer">
     <div class="footer_container">
@@ -176,9 +176,6 @@
         myVideo.width = 450; 
     } 
 
-    function makeSmall() { 
-        myVideo.width = 150; 
-    } 
 
     function makeNormal() { 
         myVideo.width = 300; 
