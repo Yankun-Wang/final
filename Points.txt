@@ -41,9 +41,6 @@ https://codepen.io/pramodkumarboda/pen/XdgxmQ
 https://www.w3schools.com/howto/howto_js_filter_elements.asp
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_elements
 
-JavaScript – Accordion           15
-https://www.w3schools.com/howto/howto_js_accordion.asp
-https://codepen.io/sureshrkm/pen/ZbzBpr/
 
 
 
